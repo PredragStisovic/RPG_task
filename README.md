@@ -9,7 +9,7 @@ It uses docker compose for provisioning, and you should use the following comman
 $ docker compose up
 ```
 
-**Note:** Considering this is only a test task, for accessibility I have not put .env and .yaml file into .gitignore. Under any other circumstance do not do the same
+**Note:** Considering this is only a test task, for accessibility I have not put .env and .yaml file into .gitignore. Under any other circumstance, I would not do the same
 
 
 ## Project setup
