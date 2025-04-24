@@ -19,7 +19,6 @@ export class CharacterController {
   }
 
   @Get(':id')
-  @UseInterceptors(CacheInterceptor)
   getACharacter(@Param('id') id : string){
     return this.characterService.getACharacter(id);
   }
